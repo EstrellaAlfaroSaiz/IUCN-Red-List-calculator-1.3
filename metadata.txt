@@ -1,0 +1,26 @@
+[general]
+name=IUCN Red List calculator
+qgisMinimumVersion=3.28
+qgisMaximumVersion=4.99
+description=Retrieve and review GBIF records; calculate AOO, EOO and optional expert-reviewed distribution polygons; export IUCN-compatible spatial data.
+version=1.3.0
+author=Alfaro-Saiz Estrella
+email=ealfsz@unileon.es
+homepage=https://github.com/EstrellaAlfaroSaiz/IUCN-Red-List-calculator
+repository=https://github.com/EstrellaAlfaroSaiz/IUCN-Red-List-calculator
+tracker=https://github.com/EstrellaAlfaroSaiz/IUCN-Red-List-calculator/issues
+about=EN: QGIS plugin for preliminary spatial assessments for the IUCN Red List. Preview GBIF occurrences, calculate AOO and EOO, and export distribution data.
+ ES: Complemento de QGIS para evaluaciones espaciales preliminares de la Lista Roja de la UICN. Permite revisar registros de GBIF, calcular AOO y EOO y exportar datos de distribución.
+ Credits / Créditos: Sociedad Española de Biología de la Conservación de Plantas (SEBiCoP); Grupo de Especialistas de Especies del Comité Español de la UICN.
+ Recommended citation / Cita recomendada: Alfaro-Saiz, E. (2026). IUCN Red List calculator v1.3.0: QGIS plugin. Sociedad Española de Biología de la Conservación de Plantas (SEBiCoP); Grupo de Especialistas de Especies del Comité Español de la UICN.
+changelog=1.3.0
+ Preview and filter GBIF occurrences, and combine them with your own point layers.
+ Calculate Area of Occupancy (AOO) and Extent of Occurrence (EOO), and preview editable distribution polygons.
+ Export Point Distribution as SRedList-compatible CSV or as a shapefile, export selected layers as GeoJSON, and request an official GBIF download DOI.
+ Connects distribution patches by default, dissolves overlaps in separate mode, and aligns final point and polygon fields and citation guides with the IUCN spatial attribute standard.
+category=Vector
+tags=GBIF,AOO,EOO,IUCN,conservation,flora,occurrences,Red List
+experimental=False
+deprecated=False
+license=GPL-3.0-or-later
+icon=icon.png
